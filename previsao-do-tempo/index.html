@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container-1">
+        <input class="input-city" placeholder="enter the name of the city">
+        <button class="btn-search" onclick="clickButton()">
+            <img class="img-search" src="./assets/magnifying-glass.svg" alt="busca">
+        </button>
+    
+        <div class="container-3">
+            <h2 class="city">New York</h2>
+            <p class="temperature">1°C</p>
+            <div class="container-4">
+                <img class="img-forecast" alt="icone-info-tempo" src="https://cdn.weatherapi.com/weather/64x64/day/116.png"> 
+            </div>
+            <p class="forecast">Cloudy</p>
+            <p class="umidity">Umidity: 85%</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
